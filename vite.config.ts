@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './', // GitHub Pages için göreceli dosya yolları
+    base: '/KKTCAtamalarV2/', // GitHub Pages repo adı
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
